@@ -16,6 +16,6 @@ install:
   - npm install
 script:
  # - phantomjs --version
-  - gulp buildAll
+  - gulp build
 notifications:
   email: false

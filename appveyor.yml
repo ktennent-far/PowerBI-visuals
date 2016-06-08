@@ -40,7 +40,7 @@ install:
   - npm install
 
 build_script:
-  - gulp buildAll
+  - gulp build
 
 #---------------------------------#
 #       tests configuration       #
