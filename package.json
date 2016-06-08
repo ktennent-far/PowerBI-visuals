@@ -75,7 +75,8 @@
     "webpack-dev-server": "^1.14.1",
     "webpack-spritesmith": "^0.1.2",
     "webpack-stream": "^3.1.0",
-    "yargs": "3.20.0"
+    "yargs": "3.20.0",
+    "jasmine-jquery": "2.0.5"
   },
   "author": "Microsoft PowerBI Visuals",
   "license": "MIT",

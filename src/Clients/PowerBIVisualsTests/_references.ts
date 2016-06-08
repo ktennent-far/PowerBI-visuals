@@ -20,8 +20,6 @@
 /// <reference path="./jasmineMatchers/toEqualDeep.ts"/>
 /// <reference path="./jasmineMatchers/toEqualSQExpr.ts"/>
 /// <reference path="./sqFieldDef.ts"/>
-/// <reference path="./utils/bingSocial/newsDataFactory.ts"/>
-/// <reference path="./utils/bingSocial/tweetFactory.ts"/>
 /// <reference path="./common/arrayExtensionsTests.ts"/>
 /// <reference path="./common/colorTests.ts"/>
 /// <reference path="./common/doubleTests.ts"/>
@@ -42,9 +40,6 @@
 /// <reference path="./visuals/animatedNumberTests.ts"/>
 /// <reference path="./visuals/animatedTextTests.ts"/>
 /// <reference path="./visuals/basicShapeTests.ts"/>
-/// <reference path="./visuals/bingNewsTests.ts"/>
-/// <reference path="./visuals/bingSocialNewsTests.ts"/>
-/// <reference path="./visuals/bingSocialTweetsTests.ts"/>
 /// <reference path="./visuals/cardTests.ts"/>
 /// <reference path="./visuals/cartesianChartTests.ts"/>
 /// <reference path="./visuals/columnChartTests.ts"/>
@@ -89,10 +84,8 @@
 /// <reference path="./visuals/mapTests.ts"/>
 /// <reference path="./visuals/matrixTests.ts"/>
 /// <reference path="./visuals/multiRowCardTests.ts"/>
-/// <reference path="./visuals/partitionMapTests.ts"/>
 /// <reference path="./visuals/performance/performanceTests.ts"/>
 /// <reference path="./visuals/playChartTests.ts"/>
-/// <reference path="./visuals/realTimeLineChartTests.ts"/>
 /// <reference path="./visuals/scatterChartTests.ts"/>
 /// <reference path="./visuals/scriptVisualTests.ts"/>
 /// <reference path="./visuals/services/colorAllocatorFactoryTests.ts"/>
@@ -112,7 +105,6 @@
 /// <reference path="./visuals/verticalSlicerTests.ts"/>
 /// <reference path="./visuals/visualFactoryTests.ts"/>
 /// <reference path="./visuals/waterfallChartTests.ts"/>
-/// <reference path="./visuals/webChartTests.ts"/>
 /// <reference path="./visuals/system/debugVisualTests.ts"/>
 /// <reference path="./extensibility/extensibilityMocks.ts"/>
 /// <reference path="./extensibility/extensibilityHelpers.ts"/>
@@ -134,15 +126,12 @@
 /// <reference path="./customVisuals/sampleDataViews/CountriesData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/ValueByNameGroupData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/SalesByDayOfWeekData.ts"/>
-/// <reference path="./customVisuals/sampleDataViews/AreaRangeChartData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/EnhancedScatterChartData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/forceGraphData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/GanttData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/TimelineData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/valueByAgeData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/ProductSalesByDateData.ts"/>
-/// <reference path="./customVisuals/sampleDataViews/PulseChartData.ts"/>
-/// <reference path="./customVisuals/sampleDataViews/SandDanceData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/ValueByNameData.ts"/>
 /// <reference path="./customVisuals/sampleDataViews/LineDotChartData.ts"/>
 /// <reference path="./customVisuals/VisualBuilderBase.ts"/>
@@ -155,7 +144,6 @@
 /// <reference path="./customVisuals/chordChartTests.ts"/>
 /// <reference path="./customVisuals/enhancedScatterChartTests.ts"/>
 /// <reference path="./customVisuals/radarChartTests.ts"/>
-/// <reference path="./customVisuals/areaRangeChartTests.ts"/>
 /// <reference path="./customVisuals/dotPlotTests.ts"/>
 /// <reference path="./customVisuals/forceGraphTests.ts"/>
 /// <reference path="./customVisuals/histogramChartTests.ts"/>
@@ -163,5 +151,4 @@
 /// <reference path="./customVisuals/ganttTests.ts"/>
 /// <reference path="./customVisuals/chicletSlicerTests.ts"/>
 /// <reference path="./customVisuals/streamGraphTests.ts"/>
-/// <reference path="./customVisuals/pulseChartTests.ts"/>
 /// <reference path="./customVisuals/lineDotChartTests.ts"/>

@@ -1,7 +1,6 @@
 /// <reference path="./typedefs/typedefs.ts"/>
 /// <reference path="../../../src/Clients/Typedefs/webpack/webpack-env.d.ts"/>
 /// <reference path="../../../src/Clients/Typedefs/common/window.d.ts"/>
-/// <reference path="./ModernCop.ts"/>
 /// <reference path="../VisualsContracts/_references.ts"/>
 /// <reference path="./DOMConstants.ts"/>
 /// <reference path="./serviceError.ts"/>

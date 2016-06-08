@@ -15,15 +15,12 @@
 /// <reference path="./visuals/enhancedScatterChart/visual/enhancedScatterChart.ts"/>
 /// <reference path="./visuals/globeMap/visual/globeMap.ts"/>
 /// <reference path="./visuals/radarChart/visual/radarChart.ts"/>
-/// <reference path="./visuals/areaRangeChart/visual/areaRangeChart.ts"/>
 /// <reference path="./visuals/histogram/visual/histogram.ts"/>
 /// <reference path="./visuals/dotPlot/visual/dotPlot.ts"/>
 /// <reference path="./visuals/forceGraph/visual/forceGraph.ts"/>
 /// <reference path="./visuals/gantt/visual/gantt.ts"/>
 /// <reference path="./visuals/timeline/visual/timeline.ts"/>
 /// <reference path="./visuals/streamGraph/visual/streamGraph.ts"/>
-/// <reference path="./visuals/pulseChart/visual/pulseChart.ts"/>
-/// <reference path="./visuals/sandDance/visual/sandDance.ts"/>
 /// <reference path="./visuals/lineDotChart/visual/lineDotChart.ts"/>
 /// <reference path="./plugins.ts"/>
 /// <reference path="./services/customVisualPluginService.ts"/>

@@ -14,7 +14,6 @@
 /// <reference path="./sampleDataViews/SalesByCountryData.ts"/>
 /// <reference path="./sampleDataViews/SalesByDayOfWeekData.ts"/>
 /// <reference path="./sampleDataViews/ServicesByUsers.ts"/>
-/// <reference path="./sampleDataViews/SimpleAreaRangeData.ts"/>
 /// <reference path="./sampleDataViews/SimpleDotPlotData.ts"/>
 /// <reference path="./sampleDataViews/SimpleTimelineData.ts"/>
 /// <reference path="./sampleDataViews/SimpleFunnelData.ts"/>
@@ -27,7 +26,6 @@
 /// <reference path="./sampleDataViews/SimpleHistogramData.ts"/>
 /// <reference path="./sampleDataViews/SimpleDataByCountries.ts"/>
 /// <reference path="./sampleDataViews/SimpleCountriesData.ts"/>
-/// <reference path="./sampleDataViews/SandDanceData.ts"/>
 /// <reference path="./sampleDataViews/BulletChartData.ts"/>
 /// <reference path="./sampleData.ts"/>
 /// <reference path="./hostControls.ts"/>

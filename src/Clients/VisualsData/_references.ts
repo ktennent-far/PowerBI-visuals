@@ -1,5 +1,4 @@
 /// <reference path="./typedefs/typedefs.ts"/>
-/// <reference path="./ModernCop.ts"/>
 /// <reference path="../VisualsContracts/_references.ts"/>
 /// <reference path="../VisualsCommon/_references.ts"/>
 /// <reference path="../../../src/Clients/Typedefs/webpack/webpack-env.d.ts"/>
