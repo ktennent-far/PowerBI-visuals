@@ -24,6 +24,8 @@
  *  THE SOFTWARE.
  */
 
+/// <reference path="../_references.ts"/>
+
 module powerbitests {
     import DataViewTransform = powerbi.data.DataViewTransform;
     import SelectionId = powerbi.visuals.SelectionId;
@@ -249,7 +251,8 @@ module powerbitests {
 
                 expect($(".slicerContainer .slicerBody").first().css("height")).toBe("181px");
                 expect($(".slicerContainer .slicerBody").first().css("width")).toBe("300px");
-                expect($(".slicerContainer .headerText").first().css("width")).toBe("269px");
+                expect($(".slicerContainer .slicerHeader").first().css("width")).toBe("292px");
+                expect($(".slicerContainer .titleHeader").first().css("width")).toBe("284px");
 
                 // Next Resize
                 let viewport2 = {
@@ -316,7 +319,7 @@ module powerbitests {
                 $(".slicerBody .scrollbar-inner.scroll-content").scrollTop(itemCount * rowHeight);
             }
 
-            xit("Scrolling", (done) => {
+            it("Scrolling", (done) => {
                 loadFirstSegment();
 
                 expect($(slicerHelper.slicerTextClassSelector).eq(0).text()).toBe(dv1.categorical.categories[0].values[0]); // Fruit 0
@@ -331,7 +334,7 @@ module powerbitests {
                 }, DefaultWaitForRender);
             });
 
-            xit("Selecting an item -> No Scroll Reset", (done) => {
+            it("Selecting an item -> No Scroll Reset", (done) => {
                 loadFirstSegment();
 
                 // Scroll by 10 items, assert first rendered element is #10
@@ -348,7 +351,7 @@ module powerbitests {
                 }, DefaultWaitForRender);
             });
 
-            xit("Appending -> No Scroll Reset", (done) => {
+            it("Appending -> No Scroll Reset", (done) => {
                 loadFirstSegment();
 
                 // Scroll by 10 items, assert first rendered element is #10
@@ -366,7 +369,7 @@ module powerbitests {
                 }, DefaultWaitForRender);
             });
 
-            xit("Filtering -> Scroll Reset", (done) => {
+            it("Filtering -> Scroll Reset", (done) => {
                 loadFirstSegment();
 
                 // Scroll by 10 items, assert first rendered element is #10

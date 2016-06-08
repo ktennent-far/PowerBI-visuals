@@ -24,6 +24,8 @@
  *  THE SOFTWARE.
  */
 
+/// <reference path="../_references.ts"/>
+
 module powerbitests {
 
     import ValueType = powerbi.ValueType;
@@ -846,7 +848,7 @@ module powerbitests {
             });
         });
 
-        xit("check that slider contains all the required elements", () => {
+        it("check that slider contains all the required elements", () => {
             scatterChart.onDataChanged({
                 dataViews: [
                     matrixSeriesAndPlayDataView
@@ -867,7 +869,7 @@ module powerbitests {
             expect(framesCount).toBe(2);
         });
 
-        xit("check the frame switch interactions", (done) => {
+        it("check the frame switch interactions", (done) => {
             scatterChart.onDataChanged({
                 dataViews: [
                     matrixSeriesAndPlayDataView
@@ -885,7 +887,7 @@ module powerbitests {
             }, frameAnimationSpeed);
         });
 
-        xit("play pause tests", (done) => {
+        it("play pause tests", (done) => {
             scatterChart.onDataChanged({
                 dataViews: [
                     matrixSeriesAndPlayDataView
@@ -917,7 +919,7 @@ module powerbitests {
             }, frameAnimationSpeed);
         });
 
-        xit("interrupt play test", function (done) {
+        it("interrupt play test", function (done) {
             scatterChart.onDataChanged({
                 dataViews: [
                     matrixSeriesAndPlayDataView

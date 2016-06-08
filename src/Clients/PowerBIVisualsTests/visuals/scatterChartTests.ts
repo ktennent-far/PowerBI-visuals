@@ -24,6 +24,8 @@
  *  THE SOFTWARE.
  */
 
+/// <reference path="../_references.ts"/>
+
 module powerbitests {
     import ArrayExtensions = jsCommon.ArrayExtensions;
     import AxisType = powerbi.visuals.axisType;
@@ -4763,8 +4765,8 @@ module powerbitests {
 
                 setTimeout(() => {
                     expect($(".labelGraphicsContext")).toBeInDOM();
-                    expect(helpers.isInRange($(".labelGraphicsContext .label").length, 17, 18)).toBeTruthy();
-                    expect(helpers.isInRange($(".labelGraphicsContext .line-label").length, 9, 10)).toBeTruthy();
+                    expect($(".labelGraphicsContext .label").length).toBe(18);
+                    expect($(".labelGraphicsContext .line-label").length).toBe(10);
 
                     done();
                 }, DefaultWaitForRender);

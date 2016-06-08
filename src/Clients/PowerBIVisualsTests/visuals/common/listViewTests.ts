@@ -24,6 +24,8 @@
  *  THE SOFTWARE.
  */
 
+/// <reference path="../../_references.ts"/>
+
 module powerbitests {
     import ListViewFactory = powerbi.visuals.ListViewFactory;
     import ListViewOptions = powerbi.visuals.ListViewOptions;
@@ -86,7 +88,7 @@ module powerbitests {
             }, DefaultWaitForRender);
         });
 
-        xit("Scroll to last to check if items come in view HTML", (done) => {
+        it("Scroll to last to check if items come in view HTML", (done) => {
             listViewBuilder.buildHtmlListView();
             setTimeout(() => {
                 let lastElem = listViewBuilder.element.find(".item").last().text();
@@ -104,7 +106,7 @@ module powerbitests {
         });
         
 
-        xit("Reset scrollbar position when ResetScrollbar flag is set", (done) => {
+        it("Reset scrollbar position when ResetScrollbar flag is set", (done) => {
             listViewBuilder.buildHtmlListView();
             setTimeout(() => {
                 listViewBuilder.scrollElement.scrollTop(14);
