@@ -23,16 +23,14 @@ require("./visuals/chordChart/visual/chordChart.ts");
 require("./visuals/enhancedScatterChart/visual/enhancedScatterChart.ts");
 require("./visuals/globeMap/visual/globeMap.ts");
 require("./visuals/radarChart/visual/radarChart.ts");
-require("./visuals/areaRangeChart/visual/areaRangeChart.ts");
 require("./visuals/histogram/visual/histogram.ts");
 require("./visuals/dotPlot/visual/dotPlot.ts");
 require("./visuals/forceGraph/visual/forceGraph.ts");
 require("./visuals/gantt/visual/gantt.ts");
 require("./visuals/timeline/visual/timeline.ts");
 require("./visuals/streamGraph/visual/streamGraph.ts");
-require("./visuals/pulseChart/visual/pulseChart.ts");
-require("./visuals/sandDance/visual/sandDance.ts");
 require("./visuals/lineDotChart/visual/lineDotChart.ts");
+require("./visuals/sunburst/visual/sunburst.ts");
 require("./plugins.ts");
 require("./services/customVisualPluginService.ts");
 

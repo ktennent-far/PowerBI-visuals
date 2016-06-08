@@ -8,7 +8,6 @@ window.InJs = window.InJs || {};
 // require("../VisualsContracts/module.ts");
 
 require("./typedefs/typedefs.ts");
-require("./ModernCop.ts");
 require("./DOMConstants.ts");
 require("./serviceError.ts");
 require("./services/build.ts");

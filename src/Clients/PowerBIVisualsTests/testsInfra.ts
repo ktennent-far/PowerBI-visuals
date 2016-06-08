@@ -14,12 +14,8 @@ window.Microsoft = window.Microsoft || {};
 // require("script!../../../lib/CustomVisuals.js");
 
 // Extra libraries used in tests
-require("script!../../../src/Clients/Externals/ThirdPartyIP/JasmineJQuery/jasmine-jquery.js");
-require("script!../../../src/Clients/Externals/ThirdPartyIP/MomentJS/moment.js");
-require("script!../../../src/Clients/Externals/ThirdPartyIP/Velocity/velocity.js");
-require("script!../../../src/Clients/Externals/ThirdPartyIP/Velocity/velocity.ui.js");
+require("script!../../../node_modules/jasmine-jquery/lib/jasmine-jquery.js");
 require("script!../../../src/Clients/Externals/ThirdPartyIP/QuillJS/quill.min.js");
-require("script!../../../src/Clients/Externals/ThirdPartyIP/JQueryScrollbar/jquery.scrollbar.min.js");
 require("script!../../../src/Clients/Externals/ThirdPartyIP/noUiSlider/nouislider.min.js");
 
 require("./typedefs/typedefs.ts");
@@ -38,8 +34,6 @@ require("./jasmineMatchers/toEqualDeep.ts");
 require("./jasmineMatchers/toEqualSQExpr.ts");
 
 require("./sqFieldDef.ts");
-require("./utils/bingSocial/newsDataFactory.ts");
-require("./utils/bingSocial/tweetFactory.ts");
 
 require("./customVisuals/helpers/dataViewHelpers.ts");
 require("./customVisuals/helpers/visualTestHelpers.ts");
@@ -54,15 +48,12 @@ require("./customVisuals/sampleDataViews/BulletChartData.ts");
 require("./customVisuals/sampleDataViews/CarLogosData.ts");
 require("./customVisuals/sampleDataViews/CountriesData.ts");
 require("./customVisuals/sampleDataViews/SalesByDayOfWeekData.ts");
-require("./customVisuals/sampleDataViews/AreaRangeChartData.ts");
 require("./customVisuals/sampleDataViews/EnhancedScatterChartData.ts");
 require("./customVisuals/sampleDataViews/forceGraphData.ts");
 require("./customVisuals/sampleDataViews/GanttData.ts");
 require("./customVisuals/sampleDataViews/TimelineData.ts");
 require("./customVisuals/sampleDataViews/valueByAgeData.ts");
 require("./customVisuals/sampleDataViews/ProductSalesByDateData.ts");
-require("./customVisuals/sampleDataViews/PulseChartData.ts");
 require("./customVisuals/sampleDataViews/LineDotChartData.ts");
 require("./customVisuals/sampleDataViews/ValueByNameData.ts");
 require("./customVisuals/sampleDataViews/ValueByNameGroupData.ts");
-require("./customVisuals/sampleDataViews/SandDanceData.ts");

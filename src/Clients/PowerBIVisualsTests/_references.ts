@@ -97,7 +97,6 @@
 /// <reference path="./visuals/services/textMeasurementServiceTests.ts"/>
 /// <reference path="./visuals/services/visualPluginServiceTests.ts"/>
 /// <reference path="./visuals/slicerTests.ts"/>
-/// <reference path="./visuals/sunburstTests.ts"/>
 /// <reference path="./visuals/tableTests.ts"/>
 /// <reference path="./visuals/textboxTests.ts"/>
 /// <reference path="./visuals/tooltipTests.ts"/>
@@ -152,3 +151,4 @@
 /// <reference path="./customVisuals/chicletSlicerTests.ts"/>
 /// <reference path="./customVisuals/streamGraphTests.ts"/>
 /// <reference path="./customVisuals/lineDotChartTests.ts"/>
+/// <reference path="./customVisuals/sunburstTests.ts"/>

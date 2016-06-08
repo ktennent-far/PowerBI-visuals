@@ -9,7 +9,6 @@ window.InJs = window.InJs || {};
 // require("../VisualsCommon/module.ts");
 
 require("./typedefs/typedefs.ts");
-require("./ModernCop.ts");
 require("./semanticQuery/sqExprVisitor.ts");
 require("./types/enumType.ts");
 require("./types/fill.ts");
